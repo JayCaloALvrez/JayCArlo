@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    height: 500px;
+    width: 500px;
+}
+.image_container{
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 500px;
+}
+.background{
+    background-color: #444444;
+}
+.top{
+    position: sticky;
+    top: 0;
+	display: flex;
+}
+.nav{
+    display: flex;
+}
+#navs{
+    margin-left: auto;
+	margin: auto;
+	background-color:#242726;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: 2px solid black;
+}
+nav{
+    margin-left: auto;
+	margin: auto;
+	background-color:#242726;
+	padding-left: 50px;
+	padding-right: 50px;
+	border: 2px solid black;
+}
+nav,a{
+    text-decoration: none;
+	padding: 18px;
+	color: white;
+	text-shadow: 3px 3px rgba(0,0,0,0.7);
+	font-family: 'Oswald', sans-serif;
+	transition: 1s;
+}
+#Home{
+    margin-top: 150px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.7);
+    padding: 75px;
+    border-radius: 50px;
+    
+}
+#Home .Name{
+    font-size: 50px;
+    text-align: center;
+}
+#About{
+    margin-top: 150px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.7);
+    padding: 75px;
+    border-radius: 50px;
+}
+#About,h3,h1{
+    color: white;
+    margin-bottom: 75px;
+    text-align: justify;
+}
+#Skills{
+    color: white;
+    margin-top: 150px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.7);
+    padding: 75px;
+    border-radius: 50px;
+}
+#Skills .Good{
+    color:white;
+    width: 750px;
+    background-color: green;
+    padding: 5px;
+    border-radius: 5px;
+}
+#Skills .Bad{
+    color: white;
+    width: 150px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+}
+#Services{
+    margin-top: 150px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.7);
+    padding: 75px;
+    border-radius: 50px;
+}
+
+#Portfolio{
+    margin-top: 150px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.7);
+    padding: 75px;
+    border-radius: 50px;
+}
+#Portfolio .image-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 50px;
+	justify-content: center;
+	background-color:gray;
+	padding: 50px;
+	border-radius: 25px;
+}
+
+#Portfolio .image-container .image{
+	height: 250px;
+	width: 350px;
+	overflow: hidden;
+	background-color: white;
+	border: solid white 5px;
+	cursor: pointer;
+}
+#Portfolio .image-container .image, img{
+	position: relative;
+	height: 250px;
+	width: 350px;
+	object-fit: cover;
+	overflow: hidden;
+	transition: .2s linear;
+}
+#Contact{
+    margin-top: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.4);
+    padding:5px;
+
+}
+#Contact, p, a{
+    color: white;
+    text-align: center;
+}
